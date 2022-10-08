@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button {
+        @apply h-12 w-14 rounded-md bg-white border border-blue-200 shadow-md transition-all hover:bg-slate-200 hover:text-black hover:font-bold hover:border-0
+    }
+}
