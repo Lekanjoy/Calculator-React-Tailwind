@@ -36,6 +36,7 @@ export default function App() {
       <h1 className="text-center text-lg tracking-widest">CALCULATOR</h1>
       <input
         type="text"
+        placeholder='0'
         value={value}
         className="screen w-full h-12 shadow-md border border-blue-200 mt-2 mb-7 rounded-md text-right px-2 text-lg "
       />
